@@ -3,7 +3,7 @@ SweetFXOculus
 
 SweetFX Oculus shader (with chroma aberration correction) for Oculus/Dive/Google cardboard
 
-This is based on SweetFX 1.4 (the latest version compatible with RadeonPro 1.1.1.0). The only file that was modified from the source files was main.h (the Oculus/Dive/Google cardboard rift warping shader was written directly in that file, with all the includes also hardcoded in there).
+This is based on SweetFX 1.4 (the latest version compatible with RadeonPro 1.1.1.0), more precisely the Sekta's Custom 1.4 for RadeonPro. The only file that was modified from the source files was main.h (the Oculus/Dive/Google cardboard rift warping shader was written directly in that file, with all the includes also hardcoded in there).
 
 The shader was originally written with Elite Dangerous in mind, in order to avoid the Side-by-Side + custom monitor resolution hack.
 
