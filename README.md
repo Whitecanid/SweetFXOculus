@@ -5,6 +5,8 @@ SweetFX Oculus shader (with chroma aberration correction) for Oculus/Dive/Google
 
 This is based on SweetFX 1.4 (the latest version compatible with RadeonPro 1.1.1.0). The only file that was modified from the source files was main.h (the Oculus/Dive/Google cardboard rift warping shader was written directly in that file, with all the includes also hardcoded in there).
 
+The shader was originally written with Elite Dangerous in mind, in order to avoid the Side-by-Side + custom monitor resolution hack.
+
 Feel free to clean it up. This was tested with a Nexus 7 homebuilt Cheap-culus device successfully.
 
 You want to adapt the #defines in order to adapt the lens correction factors, chroma aberration factors, image X-Y shift, and x separation shift between the 2 eyes, in order to adapt to your own device.
